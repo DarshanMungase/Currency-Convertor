@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #e9ecef;
+}
+.headingcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading {
+    margin-top: 2%;
+    color: #343a40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.container {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.from {
+    height: 60vh;
+    width: 35vw;
+    border-radius: 3%;
+    background-color: #ffffff;
+}
+.to {
+    height: 60vh;
+    width: 35vw;
+    border-radius: 3%;
+    background-color: #ffffff;
+}
+p {
+    margin-left: 10%;
+    margin-top: 7%;
+}
+#exchangeicon {
+    margin-top: 10%;
+}
+#fromselect {
+    border: none;
+    background-color: #ffffff;
+}
+#toselect {
+    border: none;
+    background-color: #ffffff;
+}
+img {
+    margin-top: 7%;
+    margin-left: 20%;
+}
+#select {
+    margin-top: 7%;
+    margin-left: 20%;
+}
+#amount {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+#input {
+    width: 50%;
+    height: 20px;
+}
+#msg {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+#butcontainer {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn {
+    color: #ffffff;
+    border: 0px;
+    border-radius: 3px;
+    width: 20%;
+    height: 30px;
+    background-color: #6c757d;
+}
+/*#enter {
+    margin-top: 3%;
+    margin-left: 20%;
+}*/
+@keyframes transforms {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(180deg);}
+}
+#exchangeicon1 {
+    animation: transforms 0.7s linear;
+}
