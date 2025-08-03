@@ -82,14 +82,11 @@ img {
     height: 30px;
     background-color: #6c757d;
 }
-/*#enter {
-    margin-top: 3%;
-    margin-left: 20%;
-}*/
 @keyframes transforms {
     from{transform: rotate(0deg);}
     to{transform: rotate(180deg);}
 }
 #exchangeicon1 {
     animation: transforms 0.7s linear;
+
 }
